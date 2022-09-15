@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+}

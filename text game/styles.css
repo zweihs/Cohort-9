@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white; 
+}
+
+.submit {
+    color: blue;
+}
+
+.red-door {
+    color: red;
+    text-decoration: none;
+}
+
+.blue-door{
+    color: blue;
+    text-decoration: none;
+}
+
+.align {
+    text-align: center;
+    background-color: grey;
+}
+
+.b2 {
+    background-color: darkred;
+}
+
+#red {
+    font-size: xx-large;
+    color: black;
+}
+
+.b3 {
+    background-color: darkblue;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
