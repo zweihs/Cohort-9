@@ -1,0 +1,77 @@
+body {
+    background: black;
+    color: white;
+}
+
+header {
+    background-image: url(banner.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 500%;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+nav a {
+    float: left;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    padding-left: 15px;
+}
+
+.right {
+    float: right;
+    width: 40%;
+    padding-right: 15px;
+}
+
+img {
+    max-width: 500px;
+}
+
+.container h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+section {
+    padding-top: 20px;
+}
+
+#testimonials p {
+padding-top: 10px;
+padding-bottom: 20px;
+text-align: center;
+}
