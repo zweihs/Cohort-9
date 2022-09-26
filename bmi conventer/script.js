@@ -10,5 +10,4 @@ function calculateBMI(){
     console.log(h,w);
     document.getElementById("result").innerHTML=(w/(h*2));
 
-
 }
