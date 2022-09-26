@@ -1,0 +1,17 @@
+body {
+    background-color: lightskyblue;
+}
+
+.form-group {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.form-check {
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+
+.button {
+  text-align: center;
+}

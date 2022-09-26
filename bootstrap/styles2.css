@@ -1,0 +1,20 @@
+body {
+    background-color: lightskyblue;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(234, 230, 230);
+    overflow: auto;
+}
+
+nav a {
+    float: left;
+    padding: 15px;
+    color: rgb(134, 130, 130);
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    text-align: center;
+}
