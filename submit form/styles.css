@@ -1,0 +1,109 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+
+main {    
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 375px;
+    background: radial-gradient( 98.96% 98.96% at 50% 0%, hsl(213, 19%, 18%) 0%, #181e27 100% );
+    border-radius: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+/* form */
+.state {
+    margin: 30px;
+}
+
+/* rating */
+#rating img {
+    display: block;
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 50%;
+}
+.radios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radios label {
+    height: 20px;
+    width: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+input:hover, label:hover {
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]:active + label {
+    background-color: hsl(25, 97%, 53%);
+}
+
+input[type="radio"]:checked + label {
+    background-color: hsl(217, 12%, 63%);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+}
+
+/* submission */
+#submission {
+    display: none;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+}
+
+#submission h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+#ratingOutput {
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+}
