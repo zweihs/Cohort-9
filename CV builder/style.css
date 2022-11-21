@@ -20,13 +20,16 @@ h1 {
     top: -474px;
 }
 
-.button1 {
-    text-align: center;
+.button {
     margin-top: 90%;
-    position: fixed;
-    padding-right: 30%;
-   
-   
+    text-align: center;
+    border-radius: 12px;
+    background-color: grey;
+    color: white;  
+}
+
+.center{
+    text-align: center;
 }
 
 .markup {
